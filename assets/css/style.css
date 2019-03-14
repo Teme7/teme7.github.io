@@ -37,3 +37,31 @@ header {
 div {
     border: 2px solid pink;
 }
+
+nav {
+    float: right;
+}
+
+nav a {
+    color: #777;
+    line-height: 18px;
+    border-left: 1px solid #efefef;
+    margin-left: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+nav a:first-child {
+    border-left: 0 none;
+}
+
+#logo {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 20px;
+    text-decoration: none;
+}
+
