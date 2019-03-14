@@ -21,3 +21,19 @@ body {
 * {
     box-sizing: border-box;
 }
+
+header {
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+
+.wrapper {
+    position: relative;
+    width: 960;
+    margin: auto;
+}
+
+div {
+    border: 2px solid pink;
+}
