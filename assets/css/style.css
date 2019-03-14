@@ -108,3 +108,31 @@ footer {
     flex-shrink: 0;
 }
 
+/* Portfolio page styling begins below */
+
+.cards {
+    width: 285px;
+    height: 200px;
+    padding: 0;
+    margin: 0 20px 30px 0;
+    float: left;
+}
+
+.cards:last-child {
+    margin-bottom: 0;
+}
+
+.banner {
+    position: absolute;  
+    /* z-index: 1; */
+    background-color: #4aaaa5;
+    padding: 5px 0 5px 0;
+    width: 285px;
+    margin-top: 155px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
