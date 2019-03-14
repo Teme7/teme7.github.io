@@ -1,0 +1,23 @@
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
+    font: #fff;
+    /* background-image:url("../images/intersection/png") */
+
+    /* sticky footer requirement */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    box-sizing: border-box;
+}
