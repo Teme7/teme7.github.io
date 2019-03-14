@@ -10,8 +10,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 150%;
     font: #fff;
-    /* background-image:url("../images/intersection/png") */
-
     /* sticky footer requirement */
     height: 100%;
     display: flex;
@@ -30,12 +28,8 @@ header {
 
 .wrapper {
     position: relative;
-    width: 960;
+    width: 960px;
     margin: auto;
-}
-
-div {
-    border: 2px solid pink;
 }
 
 nav {
@@ -170,7 +164,7 @@ textarea {
 input[type=submit] {
     padding: 10px 30px;
     font-size: 18px;
-    color: #ffffff;
+    color: #fff;
     cursor: pointer;
     background-color: #4aaaa5;
     border: 0 none;
